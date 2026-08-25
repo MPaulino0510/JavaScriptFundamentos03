@@ -7,4 +7,5 @@ const usuarios = JSON.parse(respostaAPI);
 
 usuarios.forEach(aluno => {
     console.log(aluno.nome);
+    console.log(aluno.id);
 });
