@@ -10,3 +10,6 @@ class Aluno {
 
 const aluno = new Aluno("Miguel", 16);
 console.log(aluno);
+const aluno2 = new Aluno("Arthur", 17);
+console.log(aluno);
+aluno.apresentar();
